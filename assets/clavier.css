@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contain{
+    display: flex;
+    justify-content: ;
+    justify-content: space-evenly;
+    margin-top: 20PX;
+    margin-left: 100PX;
+}
+textarea{
+    border: 2Px solid ;
+    font-size: 18PX;
+    padding: 10PX;
+    width: 80%;
+    height: 250px;
+}
+.container{
+    margin-top: 10Px;
+}
+p{
+    border: 1.5PX solid;
+    padding: 10PX;
+    font-size: 21PX;
+    border-radius: 6PX;
+    cursor: pointer;
+    width: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+}
+.letter-btn{
+    border: 1.5PX solid;
+    padding: 10PX;
+    font-size: 21PX;
+    border-radius: 6PX;
+    cursor: pointer;
+    width: 60PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    gap: 15PX;
+}
+.text2{
+    margin-top: 10PX;
+    display: flex;
+    justify-content: center;
+    gap: 15PX;
+}
+.shift,.delete{
+    width: 70PX;
+    background-color: blue;
+    color: white;
+    letter-spacing: 1PX;
+    border: 2Px solid white;
+    border-radius: 10PX;
+    cursor: pointer;
+    font-size: 17PX;
+}
+
+.text4 {
+    display: flex;
+    justify-content: center;
+   
+}
+.text4 button{
+    width: 400Px;
+    padding: 9PX;
+    background-color: blue;
+    color: white;
+    margin-top: 10PX;
+    letter-spacing: 1Px;
+    font-size: 18PX;
+    border: 2Px solid white;
+    border-radius: 10PX;
+    cursor: pointer;
+}
+.bilal{
+    display: flex;
+    flex-direction: column;
+}
+.my3btn{
+    width: 100px;
+    margin-top: 10PX;
+    background-color: blue;
+    color: white;
+    padding: 10Px;
+    font-size: 18px;
+    border: 1PX solid white;
+    border-radius: 10PX;
+    cursor: pointer;
+}
+footer{
+    margin-top: 70PX;
+}

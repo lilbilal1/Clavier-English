@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/clavier.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    body{
+    background-color: rgba(192, 192, 192, 0.206);
+}
+</style>
+<body>
+    
+    
+    <!--<audio id="song" >
+        <source src="./assets/click-sound.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>-->
+    <div class="contain">
+        <textarea name="" id="textbox"></textarea>
+        
+        <div class="bilal">
+            <button onclick="textcopy()" class="my3btn">Copy</button>
+        <button onclick="searchGoogle()" class="my3btn">Google</button>
+        <button onclick="searchYoutube()" class="my3btn">Youtube</button>
+        </div>
+       
+    </div>
+    <div class="container">
+        <div class=" text">
+            <button class="letter-btn">1</button>
+            <button class="letter-btn">2</button>
+            <button class="letter-btn">3</button>
+            <button class="letter-btn">4</button>
+            <button class="letter-btn">5</button>
+            <button class="letter-btn">6</button>
+            <button class="letter-btn">7</button>
+            <button class="letter-btn">8</button>
+            <button class="letter-btn">9</button>
+            <button class="letter-btn">0</button>
+            <button class="delete" onclick="mydelete()">Delete</button>
+            </div>
+        <div class="text1 text2">
+        <button class="letter-btn">q</button>
+        <button class="letter-btn">w</button>
+        <button class="letter-btn">e</button>
+        <button class="letter-btn">r</button>
+        <button class="letter-btn">t</button>
+        <button class="letter-btn">y</button>
+        <button class="letter-btn">u</button>
+        <button class="letter-btn">i</button>
+        <button class="letter-btn">o</button>
+        <button class="letter-btn">p</button>
+        </div>
+       
+        <div class="text2">
+        <button class="letter-btn">a</button>
+        <button class="letter-btn">s</button>
+        <button class="letter-btn">d</button>
+        <button class="letter-btn">f</button>
+        <button class="letter-btn">g</button>
+        <button class="letter-btn">h</button>
+        <button class="letter-btn">j</button>
+        <button class="letter-btn">k</button>
+        <button class="letter-btn">l</button>
+        
+        </div>
+        <div class="text3 text2">
+        <button class="letter-btn">z</button>
+        <button class="letter-btn">x</button>
+        <button class="letter-btn">c</button>
+        <button class="letter-btn">v</button>
+        <button class="letter-btn">b</button>
+        <button class="letter-btn">n</button>
+        <button class="letter-btn">m</button>
+        <button class="shift" onclick="myshift()">Shift</button>
+        </div>
+        <div class="text4">
+            <button onclick="myspace()">Space</button>
+        </div>
+    </div>
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://www.facebook.com/?locale=fr_FR"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: black;"
+              href="https://twitter.com/home"
+              role="button"
+              ><i class="fa-brands fa-x-twitter"></i>
+            </a> 
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style= "background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);"
+              href="https://www.instagram.com/"
+              role="button"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://github.com/lilbilal1"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          ©
+          <a class="text-body" href="https://github.com/lilbilal1" target="_blank">Manga Time.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+  <script src="./assets/clavier.js"></script>
+</body>
+</html>
